@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #011526;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.App h1 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 4px solid #fff;
+    padding-bottom: 8px;
+}
